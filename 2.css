@@ -1,0 +1,57 @@
+#pozadina{
+  position: relative;
+  width: 60%;
+  margin: auto;
+  border: solid black 3px;
+  background-image: linear-gradient(red, orange, yellow);
+  border-radius: 20%;
+  padding: 20px 5px 80px 5px;
+  
+}
+img{
+  height: 150px;
+}
+figure{
+  border: solid black 3px;
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: static;
+  left: 0;
+  top: 0;
+}
+table{
+  width: 100%;
+}
+tr{
+  background-color: green;
+}
+tr:nth-child(2){
+  background-color: red;
+}
+td{
+  border: solid black 3px;
+  height: 3em;
+  vertical-align: top;
+  text-align: left;
+}
+
+#osnovniPodaci{
+  position: static;
+  width: 50%;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  padding-top: 0px;
+}
+
+dl{
+  padding: 5px;
+}
+dt{
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+}
+dd{
+  text-indent: -40px;
+}
