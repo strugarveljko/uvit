@@ -1,3 +1,4 @@
+// comment
 const slika = document.getElementById('slika');
 slika.addEventListener('mouseenter', uvecajSliku);
 slika.addEventListener('mouseleave', umanjiSliku);
